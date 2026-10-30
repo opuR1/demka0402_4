@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:demka4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
+        Title="MainWindow" Height="600" Width="800" Icon="/icon.png">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" x:Name="HeaderPanel" Grid.ColumnSpan="2" Background="{StaticResource SecondBG}">
+        <Grid Grid.Row="0" x:Name="HeaderPanel" Grid.ColumnSpan="4" Background="{StaticResource SecondBG}">
             <TextBlock x:Name="txtblHeader" FontSize="20" FontWeight="Bold" Text="Авторизация" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <StackPanel HorizontalAlignment="Right" Orientation="Vertical">
                 <StackPanel Orientation="Horizontal" Height="40">
@@ -23,6 +23,6 @@
                 </StackPanel>
             </StackPanel>
         </Grid>
-        <Frame Grid.Row ="1"  x:Name="MainFrame" Navigated="MainFrame_Navigated"  NavigationUIVisibility="Hidden" Grid.ColumnSpan="2"/>
+        <Frame Grid.Row ="1"  x:Name="MainFrame" Navigated="MainFrame_Navigated"  NavigationUIVisibility="Hidden" Grid.ColumnSpan="4"/>
     </Grid>
 </Window>
