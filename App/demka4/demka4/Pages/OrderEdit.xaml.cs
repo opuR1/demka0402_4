@@ -58,8 +58,8 @@ namespace demka4.Pages
         private void LoadCMB()
         {
             _orderStatuses = db.OrderStatuses.ToList();
-            cmbOrderStatus.SelectedValuePath = "OrderStatusId";
-            cmbOrderStatus.DisplayMemberPath = "OrderStatusName";
+            cmbOrderStatus.SelectedValuePath = "StatusId";
+            cmbOrderStatus.DisplayMemberPath = "StatusName";
             cmbOrderStatus.ItemsSource = _orderStatuses;
 
             _pickupPoints = db.PickupPoints.ToList();
@@ -108,7 +108,7 @@ namespace demka4.Pages
                 }
                 else
                 {
-                    var localOrder = db.Products.Find(_order.OrderId);
+                    var localOrder = db.Orders.Find(_order.OrderId);
                     if (localOrder != null)
                     {
                         db.Entry(localOrder).CurrentValues.SetValues(_order);

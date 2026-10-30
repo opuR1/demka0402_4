@@ -15,7 +15,7 @@
             <ColumnDefinition Width="200"/>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="1">
-            <Image Width="100" Height="100" x:Name="imgPicture" Margin="60,10,0,0" Source="{Binding ImagePath}"/>
+            
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0">
                 <TextBlock Text="Дата заказа:" FontSize="14"/>
                 <TextBox x:Name="tbOrderDate" Width="200" Margin="45,0,0,0"/>

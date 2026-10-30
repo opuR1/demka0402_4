@@ -18,7 +18,7 @@
 
             <Style.Triggers>
                 <!--Скидка-->
-                <DataTrigger Binding="{Binding IsHighDicount}" Value="True">
+                <DataTrigger Binding="{Binding IsHighDiscount}" Value="True">
                     <Setter Property="Background" Value="#FFDAB9"/>
                 </DataTrigger>
                 <!--Нет товара-->

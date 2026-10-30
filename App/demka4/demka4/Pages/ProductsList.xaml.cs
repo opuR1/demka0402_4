@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.Entity;
 
 namespace demka4.Pages
 {
@@ -75,7 +76,7 @@ namespace demka4.Pages
 
             if (!string.IsNullOrEmpty(searchText))
             {
-                filtered = filtered.Where(p => p.ProductName.ToLower().Contains(searchText) || p.Categories.CategoryName.ToLower().Contains(searchText) || p.Description.ToLower().Contains(searchText));
+                filtered = filtered.Where(p => p.ProductName.ToLower().Contains(searchText) || p.Categories.CategoryName.ToLower().Contains(searchText) || p.Desciption.ToLower().Contains(searchText));
 
             }
             if (cmbFilter.SelectedValue is int selectedProducerId && selectedProducerId > 0)
