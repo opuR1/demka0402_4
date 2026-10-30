@@ -1,0 +1,17 @@
+﻿<Application x:Class="demka4.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:demka4"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="MainBG" Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="SecondBG" Color="#DAA520"/>
+        <SolidColorBrush x:Key="AccesBG" Color="#B8860B"/>
+        <!--FFDAB9 - скидка-->
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Calibri"/>
+            <Setter Property="FontSize" Value="14"/>
+            </Style>
+    </Application.Resources>
+</Application>

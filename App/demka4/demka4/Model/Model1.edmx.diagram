@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f8e33532dbd8486a88eea165c48cb7e2" Name="Diagram1">
+        <EntityTypeShape EntityType="kr_de4Model.Categories" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.Cities" Width="1.5" PointX="1.5" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.Orders" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.OrdersInfo" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.OrderStatuses" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.PickupPoints" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.Producers" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.Products" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.Roles" Width="1.5" PointX="1.5" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.Suppliers" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.Units" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kr_de4Model.Users" Width="1.5" PointX="0.75" PointY="22.5" IsExpanded="true" />
+        <AssociationConnector Association="kr_de4Model.FK__Products__Catego__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="kr_de4Model.FK__PickupPoi__CityI__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="kr_de4Model.FK__Orders__PointId__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="kr_de4Model.FK__Orders__StatusId__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="kr_de4Model.FK__Orders__UserId__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="kr_de4Model.FK__OrdersInf__Order__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="kr_de4Model.FK__OrdersInf__Produ__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="kr_de4Model.FK__Products__Produc__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="kr_de4Model.FK__Products__Suppli__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="kr_de4Model.FK__Products__UnitId__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="kr_de4Model.FK__Users__RoleId__4CA06362" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
